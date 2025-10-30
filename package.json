@@ -1,0 +1,16 @@
+{
+  "name": "qa-tests-raquel",
+  "version": "1.0.0",
+  "description": "Automação de testes E2E e API com Cypress",
+  "main": "index.js",
+  "scripts": {
+    "serve": "http-server ./local_site -p 8080",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^13.13.0",
+    "cypress-stealth": "^1.0.0",
+    "http-server": "^14.1.1"
+  }
+}

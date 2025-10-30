@@ -1,12 +1,22 @@
 # Node.js
 node_modules/
-npm-debug.log
-yarn-error.log
-package-lock.json
-.env
+npm-debug.log*
+yarn-error.log*
+
+# SO / Editor
 .DS_Store
-cypress/videos/
+Thumbs.db
+
+# Env / Secrets
+.env
+.env.local
+.env.*.local
+
+# Cypress artifacts
 cypress/screenshots/
+cypress/videos/
+
+# Builds / Relatórios
 dist/
 build/
-logs/
+coverage/
